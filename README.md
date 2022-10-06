@@ -1,4 +1,4 @@
-Teste# CursoCSharp
+CursoCSharp
 using System
 using System.Collections.Generic;
 using System.Linq;
@@ -35,7 +35,7 @@ public static void Executar()
                 new Produto("Poster", 10)
             };
             carrinho.AddRange(combo);
-            Console.WriteLine(combo.Count);
+            Console.WriteLine(carrinho.Count);
             
         }
     }
